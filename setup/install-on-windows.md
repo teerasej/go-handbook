@@ -22,4 +22,8 @@ go version
 [Environment]::SetEnvironmentVariable("GOPATH", "C:\Projects\Go", "User")
 ```
 
-จากนั้นรันคำสั่ง ทดสอบค่า path ด้วย
+จากนั้นรันคำสั่ง ทดสอบค่า GO path ด้วย
+
+```bash
+go env
+```

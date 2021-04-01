@@ -6,7 +6,7 @@
 
 ### ผ่าน Homebrew
 
-ต้องติดตั้ง
+ต้องติดตั้ง Homebrew ก่อน [ดูวีดีโอวิธีติดตั้งได้ที่นี่](https://www.youtube.com/watch?v=YJAyQREPAy4) 
 
 เปิดโปรแกรม Terminal และรันคำสั่งติดตั้ง
 

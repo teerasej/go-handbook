@@ -9,5 +9,19 @@ var products [5]string
 var ids = [5]int{1, 2, 3, 4, 5}
 
 // แสดงความยาวของ Array 
-len(products)
+fmt.Println(len(products))
+```
+
+## การเพิ่มค่าเข้าไปใน array
+
+```go
+var phones []string
+
+// append()
+phones = append(phones, "iPhone")
+phones = append(phones, "Galaxy")
+
+phones = append(phones, "P30", "Redmi Note")
+
+fmt.Println(phones)
 ```

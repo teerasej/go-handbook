@@ -9,6 +9,7 @@
 - [Array](array.md)
 - [Function](function.md)
 - [Pointer](pointer.md)
+- [Struct](struct.md)
 
 ## Note
 

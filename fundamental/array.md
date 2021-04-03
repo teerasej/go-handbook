@@ -25,3 +25,22 @@ phones = append(phones, "P30", "Redmi Note")
 
 fmt.Println(phones)
 ```
+
+## การให้ Go กำหนด length ของ array 
+
+```go
+a := [...]int{3, 5, 7, 9, 11, 13, 17}
+
+fmt.Println(a)
+```
+
+## การวนลูป item ใน array ด้วย `range`
+
+```go
+daysOfWeek := [7]string{"Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"}
+
+// วนลูป ทีละ value ใน array โดยนับเลข index และ value 
+for index, value := range daysOfWeek {
+    fmt.Printf("Day %d of week = %s\n", index, value)
+}
+```

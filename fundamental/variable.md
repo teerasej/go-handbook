@@ -31,7 +31,7 @@ fmt.Println(name)
 หรือแบบนี้ก็ได้
 
 ```go
-name = "Hello, world"
+var name = "Hello, world"
 ```
 
 หรือประกาศก่อนแล้ว กำหนดค่าที่หลังก็ได้
@@ -41,7 +41,7 @@ var name string
 name = "Nextflow"
 
 var year int = 2022
-var month = 3
+year = 2021
 ```
 
 เราสามารถประกาศตัวแปรประเภทเดียวกันในบรรทัดเดียวกันได้ เช่น 
@@ -61,6 +61,8 @@ func main() {
 	
     // แทนที่จะใช้ var k = 3 เราสามารถ...
 	k := 3
+
+	index, counter := 0, 10
 
     // และกสามารถกำหนด type แบบผสมได้
 	c, python, java := true, false, "no!"

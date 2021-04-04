@@ -8,9 +8,9 @@
 
 ## ตอบกลับ Client เป็น JSON
 
-3. [สร้าง Model เพื่อเป็นตัวแทนของข้อมูล User](2-create-model.md)
-4. [สร้าง Function สำหรับ Route `/users` แยกต่างหาก](4-user-route.md)
-5. [กำหนดชื่อ field ของ JSON property ใน struct](5-define-json-property-name.md)
+1. [สร้าง Model เพื่อเป็นตัวแทนของข้อมูล User](3-create-model.md)
+2. [สร้าง Function สำหรับ Route `/users` แยกต่างหาก](4-user-route.md)
+3. [กำหนดชื่อ field ของ JSON property ใน struct](5-define-json-property-name.md)
 
 ## จัดการ Http Request
 

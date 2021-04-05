@@ -19,9 +19,17 @@
 
 ## เชื่อมต่อ MongoDB 
 
-8. [ติดตั้ง mgm](8-go-get-mgm.md)
-9. [กำหนด struct ให้รองรับการทำงานกับ MongoDB และ MGM](9-define-model-for-mongo.md)
-10. [เรียกใช้ mgm ในการสร้าง user ใหม่](10-create-new-user-in-route.md)
+สามารถดาวน์โหลดโปรเจคสำหรับเริ่มขั้นตอนนี้ได้จาก [repository](https://github.com/teerasej/go-simple-web-api-try-out/tree/finish-http-request-json-read)
+
+หรือใช้คำสั่ง
+
+```bash
+git clone -b finish-http-request-json-read https://github.com/teerasej/go-simple-web-api-try-out
+```
+
+1. [ติดตั้ง mgm](8-go-get-mgm.md)
+2. [กำหนด struct ให้รองรับการทำงานกับ MongoDB และ MGM](9-define-model-for-mongo.md)
+3.  [เรียกใช้ mgm ในการสร้าง user ใหม่](10-create-new-user-in-route.md)
 
 ## Deploy to Docker 
 

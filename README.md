@@ -7,3 +7,7 @@
 ## Exercise
 
 - [Web API with docker](web-api/README.md)
+
+## Workshop
+
+- [Web API with Revel](revel/web-api/README.md)

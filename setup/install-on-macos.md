@@ -51,8 +51,10 @@ open -e ~/.bash_profile
 
 4. วางคำสั่งด้านล่างลงไปในไฟล์ อาจจะเพิ่มเป็นบรรทัดสุดท้ายของไฟล์ก็ได้ 
 
-```bash
+```
 export GOPATH=$HOME/go
+export PATH="$PATH:$GOPATH/bin"
+GO111MODULE=on
 ```
 
 5. บันทึกไฟล์ 
